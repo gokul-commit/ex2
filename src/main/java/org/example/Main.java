@@ -33,7 +33,6 @@ public class Main {
 
         System.out.println("Average = " + average);
         System.out.println("Grade = " + calculateGrade(average));
-
         sc.close();
     }
 }
