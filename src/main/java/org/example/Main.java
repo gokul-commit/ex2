@@ -17,21 +17,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter mark in Subject 1: ");
-        int m1 = sc.nextInt();
+        int m1 = 80;
 
         System.out.print("Enter mark in Subject 2: ");
-        int m2 = sc.nextInt();
+        int m2 = 35;
 
         System.out.print("Enter mark in Subject 3: ");
-        int m3 = sc.nextInt();
+        int m3 = 21;
 
         double average = (m1 + m2 + m3) / 3.0;
 
         System.out.println("Average = " + average);
         System.out.println("Grade = " + calculateGrade(average));
-        sc.close();
     }
 }
